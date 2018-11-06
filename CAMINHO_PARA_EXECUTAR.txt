@@ -1,0 +1,9 @@
+http://localhost/nutri_fit/pages/examples/index.php
+
+
+As tabelas do banco estão em uma pasta, dentro da pasta "examples", junto com os .php!!!
+
+é so importar os .sql para o PHPMyAdmin.
+
+Caminho--> pages/examples/banco_de_dados
+
