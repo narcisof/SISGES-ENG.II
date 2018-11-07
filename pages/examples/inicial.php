@@ -38,7 +38,7 @@
     <link href="../../css/themes/all-themes.css" rel="stylesheet" />
 </head>
 
-<body class="theme-green">
+<body class="theme-cyan">
     <!-- Page Loader -->
     <div class="page-loader-wrapper">
         <div class="loader">
@@ -181,7 +181,7 @@
                             <i class="material-icons">face</i>
                         </div>
                         <div class="content">
-                            <div class="text">TOTAL CLIENTES</div>
+                            <div class="text">TOTAL BOLSISTAS</div>
                             <div class="number"><?php echo $num?></div>
                         </div>
                     </div>
@@ -191,11 +191,11 @@
                 <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                     <div class="info-box-2 bg-blue hover-zoom-effect">
                         <div class="icon">
-                            <i class="material-icons">local_dining</i>
+                            <i class="material-icons">date_range</i>
                         </div>
                         <div class="content">
-                            <div class="text">PEDIDOS HOJE</div>
-                            <div class="number">32</div>
+                            <div class="text">DATA</div>
+                            <div class="number">06/11/2018</div>
                         </div>
                     </div>
                 </div>
@@ -206,8 +206,8 @@
                             <i class="material-icons">trending_up</i>
                         </div>
                         <div class="content">
-                            <div class="text">VENDIDOS NO MÊS</div>
-                            <div class="number">210</div>
+                            <div class="text">TOAL DE TAREFAS</div>
+                            <div class="number">8</div>
                         </div>
                     </div>
                 </div>
@@ -233,7 +233,7 @@
                     <div class="card">
                         <div class="header">
                             <h2>
-                                CLIENTES
+                                BOLSISTAS
                             </h2>
                         </div>
                         <div class="body">
@@ -242,10 +242,7 @@
                                     <thead>
                                         <tr>
                                             <th>Nome</th>
-                                            <th>Endereço</th>
-                                            <th>Cidade</th>
-                                            <th>Almoço</th>
-                                            <th>Jantar</th>
+                                            
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -254,10 +251,7 @@
                                                 echo '
                                                 <tr>
                                                     <td>'.$row['nome'].'</td>
-                                                    <td>'.$row['rua'].' - '.$row['bairro'].' - '.$row['numero_casa'].'</td>
-                                                    <td>'.$row['cidade'].'</td>
-                                                    <td>'.$row['almoco'].'</td>
-                                                    <td>'.$row['jantar'].'</td>
+                                                    
                                                 </tr>
                                                 ';
                                             }

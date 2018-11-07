@@ -13,7 +13,7 @@ $_SESSION['log'] = "sair";
 <head>
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-    <title>NUTRIFIT | Alimentação Saudável</title>
+    <title>SISGES | Sistema Gerador de Escalas de Serviços</title>
     <!-- Favicon-->
     <link rel="icon" href="../../favicon.ico" type="image/x-icon">
 
@@ -37,8 +37,8 @@ $_SESSION['log'] = "sair";
 <body class="login-page">
     <div class="login-box">
         <div class="logo">
-            <a href="javascript:void(0);">Nutri<b>FIT</b></a>
-            <small>Alimentação Saudável</small>
+            <a href="javascript:void(0);"><b>SISGES</b></a>
+            <small>Sistema Gerador de Escalas de Serviços</small>
         </div>
         <div class="card">
             <div class="body">
