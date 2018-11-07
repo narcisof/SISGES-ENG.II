@@ -11,7 +11,7 @@
 <head>
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-    <title>NUTRIFIT | Alimentação Saudável</title>
+    <title>SISGES | Sistema Gerador de Escalas de Serviços</title>
     <!-- Favicon-->
     <link rel="icon" href="../../favicon.ico" type="image/x-icon">
 
@@ -173,7 +173,7 @@
                     <div class="card">
                         <div class="header">
                             <h2>
-                                CLIENTES
+                                BOLSISTAS
                             </h2>
                         </div>
                         <div class="body">
@@ -182,10 +182,6 @@
 	                            	<thead>
 	                            		<tr>
 	                            			<th>Nome</th>
-	                            			<th>Endereço</th>
-	                            			<th>Cidade</th>
-	                            			<th>Almoço</th>
-	                            			<th>Jantar</th>
 	                            		</tr>
 	                            	</thead>
 	                            	<tbody>
@@ -194,10 +190,6 @@
 	                            				echo '
 	                            				<tr>
 	                            					<td>'.$row['nome'].'</td>
-	                            					<td>'.$row['rua'].' - '.$row['bairro'].' - '.$row['numero_casa'].'</td>
-	                            					<td>'.$row['cidade'].'</td>
-	                            					<td>'.$row['almoco'].'</td>
-	                            					<td>'.$row['jantar'].'</td>
 	                            				</tr>
 	                            				';
 	                            			}

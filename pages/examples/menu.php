@@ -25,7 +25,7 @@
                         </a>
                         <ul class="ml-menu">
                             <li class="active">
-                                <a href="clientes.php">Clientes Cadastrados</a>
+                                <a href="clientes.php">Bolsistas Cadastrados</a>
                             </li>
                             <li class="active">
                                 <a href="cadastro.php">Novo Cadastro</a>
