@@ -215,10 +215,10 @@
                 <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                     <div class="info-box-2 bg-red hover-zoom-effect">
                         <div class="icon">
-                            <i class="material-icons">mood_bad</i>
+                            <i class="material-icons">content_paste</i>
                         </div>
                         <div class="content">
-                            <div class="text">CLIENTES PERDIDOS</div>
+                            <div class="text">ESCALAS GERADAS</div>
                             <div class="number">4</div>
                         </div>
                     </div>
