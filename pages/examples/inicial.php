@@ -106,7 +106,7 @@
                             <div class="light-blue"></div>
                             <span>Light Blue</span>
                         </li>
-                        <li data-theme="cyan">
+                        <li data-theme="cyan" class="active">
                             <div class="cyan"></div>
                             <span>Cyan</span>
                         </li>
@@ -114,7 +114,7 @@
                             <div class="teal"></div>
                             <span>Teal</span>
                         </li>
-                        <li data-theme="green" class="active">
+                        <li data-theme="green">
                             <div class="green"></div>
                             <span>Green</span>
                         </li>

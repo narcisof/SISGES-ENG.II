@@ -41,7 +41,7 @@
     <link href="../../css/themes/all-themes.css" rel="stylesheet" />
 </head>
 
-<body class="theme-green">
+<body class="theme-cyan">
     <!-- Page Loader -->
     <div class="page-loader-wrapper">
         <div class="loader">
@@ -109,7 +109,7 @@
                             <div class="light-blue"></div>
                             <span>Light Blue</span>
                         </li>
-                        <li data-theme="cyan">
+                        <li data-theme="cyan" class="active">
                             <div class="cyan"></div>
                             <span>Cyan</span>
                         </li>
@@ -117,7 +117,7 @@
                             <div class="teal"></div>
                             <span>Teal</span>
                         </li>
-                        <li data-theme="green" class="active">
+                        <li data-theme="green">
                             <div class="green"></div>
                             <span>Green</span>
                         </li>

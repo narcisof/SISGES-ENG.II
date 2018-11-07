@@ -36,7 +36,7 @@ include "verifica.php";
     <link href="../../css/themes/all-themes.css" rel="stylesheet" />
 </head>
 
-<body class="theme-green">
+<body class="theme-cyan">
     <!-- Page Loader -->
     <div class="page-loader-wrapper">
         <div class="loader">
@@ -104,7 +104,7 @@ include "verifica.php";
                             <div class="light-blue"></div>
                             <span>Light Blue</span>
                         </li>
-                        <li data-theme="cyan">
+                        <li data-theme="cyan" class="active">
                             <div class="cyan"></div>
                             <span>Cyan</span>
                         </li>
@@ -112,7 +112,7 @@ include "verifica.php";
                             <div class="teal"></div>
                             <span>Teal</span>
                         </li>
-                        <li data-theme="green" class="active">
+                        <li data-theme="green">
                             <div class="green"></div>
                             <span>Green</span>
                         </li>
@@ -196,76 +196,19 @@ include "verifica.php";
                                             <input type="text" id="password" name="telefone" class="form-control" placeholder="(99) 9 9999-9999" required>
                                         </div>
                                     </div>
-                                    <label for="text">Sexo</label>
-                                    <div class="demo-radio-button">
-                                        <input name="sexo" value="M" type="radio" id="radio_1" checked />
-                                        <label for="radio_1">Masculino</label>
-                                        <input name="sexo" value="F" type="radio" id="radio_2" />
-                                        <label for="radio_2">Feminino</label>
-                                        <input type="checkbox" id="remember_me" class="filled-in">
-                                    </div>
                                 <div class="header">
                                         <h2>
-                                            <i class="material-icons">home</i>
-                                            ENDEREÇO
-                                        </h2>
-                                </div>
-                                    <label for="text">Cidade</label>
-                                    <div class="form-group">
-                                        <div class="form-line">
-                                            <input type="text" id="email_address" name="cidade" class="form-control" placeholder="Ex. Caicó">
-                                        </div>
-                                    </div>
-                                    <label for="text">Rua</label>
-                                    <div class="form-group">
-                                        <div class="form-line">
-                                            <input type="text" id="email_address" name="rua" class="form-control" placeholder="Ex. Vicente Ferreira" required>
-                                        </div>
-                                    </div>
-                                    <label for="text">Numero da Casa</label>
-                                    <div class="form-group">
-                                        <div class="form-line">
-                                            <input type="text" id="email_address" name="numero" class="form-control" placeholder="Ex. 123A" required>
-                                        </div>
-                                    </div>
-                                    <label for="text">Bairro</label>
-                                    <div class="form-group">
-                                        <div class="form-line">
-                                            <input type="text" id="email_address" name="bairro" class="form-control" placeholder="Ex. Centro" required>
-                                        </div>
-                                    </div>
-                                    <label for="text">Complemento</label>
-                                    <div class="form-group">
-                                        <div class="form-line">
-                                            <input type="text" id="email_address" name="complemento" class="form-control" placeholder="Ex. Proximo ao banco">
-                                        </div>
-                                    </div>
-                                <div class="header">
-                                        <h2>
-                                            <i class="material-icons">content_paste</i>
-                                            PLANO
-                                        </h2>
-                                </div>  
-                                    <div class="demo-radio-button">
-                                        <input name="plano" value="semanal" type="radio" id="radio_3" checked />
-                                        <label for="radio_3">SEMANAL</label>
-                                        <input name="plano" value="mensal" type="radio" id="radio_4" />
-                                        <label for="radio_4">MENSAL</label>
-                                        <input type="checkbox" id="remember_me" class="filled-in">
-                                    </div>
-                                <div class="header">
-                                        <h2>
-                                            <i class="material-icons">local_dining</i>
-                                            PACOTES
+                                            <i class="material-icons">access_time</i>
+                                            TURNO
                                         </h2>
                                 </div>
                                     <div class="demo-radio-button">
                                         <input name="horario" value="1" type="radio" id="radio_5" checked />
-                                        <label for="radio_5">ALMOÇO</label>
+                                        <label for="radio_5">MANHÃ</label>
                                         <input name="horario" value="2" type="radio" id="radio_6" />
-                                        <label for="radio_6">JANTAR</label>
+                                        <label for="radio_6">TARDE</label>
                                         <input name="horario" value="3" type="radio" id="radio_7" />
-                                        <label for="radio_7">ALMOÇO E JANTAR</label>
+                                        <label for="radio_7">NOITE</label>
                                     </div>
                                     <button type="submit" class="btn btn-primary m-t-15 waves-effect">CADASTRAR</button>
                             </form>
