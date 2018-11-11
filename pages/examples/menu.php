@@ -21,7 +21,7 @@
                     <li>
                         <a href="javascript:void(0);" class="menu-toggle">
                             <i class="material-icons">assignment</i>
-                            <span>Cadastro</span>
+                            <span>Bolsista</span>
                         </a>
                         <ul class="ml-menu">
                             <li class="active">
@@ -32,7 +32,34 @@
                             </li>
                         </ul>
                     </li>
-
+                    <li>
+                        <a href="javascript:void(0);" class="menu-toggle">
+                            <i class="material-icons">assignment</i>
+                            <span>Funções</span>
+                        </a>
+                        <ul class="ml-menu">
+                            <li class="active">
+                                <a href="funcao.php">Funções Cadastradas</a>
+                            </li>
+                            <li class="active">
+                                <a href="cadastrof.php">Novo Cadastro</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);" class="menu-toggle">
+                            <i class="material-icons">assignment</i>
+                            <span>Escalas</span>
+                        </a>
+                        <ul class="ml-menu">
+                            <li class="active">
+                                <a href="escalas.php">Escalas Geradas</a>
+                            </li>
+                            <li class="active">
+                                <a href="cadastroe.php">Nova Escala</a>
+                            </li>
+                        </ul>
+                    </li>
                     <li>
                         <a href="index.php">
                             <i class="material-icons">input</i>
