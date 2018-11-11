@@ -1,7 +1,7 @@
 <?php 
     include "verifica.php";
     include 'conexao_bd.php';
-    $sql = mysqli_query($conexao, "select * from cliente");
+    $sql = mysqli_query($conexao, "select * from funcao");
 
 ?>
 
@@ -193,13 +193,13 @@
                                             while ($row = mysqli_fetch_array($sql)) {
                                                 echo '
                                                 <tr>
-                                                    <td>'.$row['nome'].'</td>
+                                                    <td>'.$row['nomef'].'</td>
                                                     <td>
-                                                        <form action="editar.php" method="post">
+                                                        <form action="editarf.php" method="post">
                                                         <input type="hidden" name="id_edit" value="'.$row['id'].'">
                                                             <button type="submit" style="position:absolute;" class="btn bg-light-blue waves-effect"><i class="fas fa-pen-square"></i></button>
                                                         </form>
-                                                        <form action="delete.php" method="post">
+                                                        <form action="deletef.php" method="post">
                                                             <input type="hidden" name="id_delete" value="'.$row['id'].'">
                                                             <button type="submit" style="position:relative;margin-left:50px;" class="btn btn-danger waves-effect"><i class="fas fa-trash"></i></button>
                                                         </form>
