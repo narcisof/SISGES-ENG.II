@@ -177,11 +177,11 @@ include "verifica.php";
                             </h2>
                         </div>
                         <div class="body">
-                            <form action="cadastro_cliente.php" method="post">
+                            <form action="cadastro_funcao.php" method="post">
                                     <label for="text">Nome</label>
                                     <div class="form-group">
                                         <div class="form-line">
-                                            <input type="text" id="email_address" name="nome" class="form-control" placeholder="Nome da função" required>
+                                            <input type="text" id="email_address" name="nomef" class="form-control" placeholder="Nome da função" required>
                                         </div>
                                     </div>
                                     
