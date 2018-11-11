@@ -35,7 +35,7 @@
                     <li>
                         <a href="javascript:void(0);" class="menu-toggle">
                             <i class="material-icons">assignment</i>
-                            <span>Funções</span>
+                            <span>Função</span>
                         </a>
                         <ul class="ml-menu">
                             <li class="active">
@@ -49,7 +49,7 @@
                     <li>
                         <a href="javascript:void(0);" class="menu-toggle">
                             <i class="material-icons">assignment</i>
-                            <span>Escalas</span>
+                            <span>Escala</span>
                         </a>
                         <ul class="ml-menu">
                             <li class="active">
